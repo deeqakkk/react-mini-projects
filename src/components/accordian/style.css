@@ -1,0 +1,34 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #faebd7;
+  padding: 4px;
+}
+.wrapper button{
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+color: white;
+background-color: black;
+
+}
+.item {
+  background-color: aquamarine;
+  padding: 8px;
+  margin: 8px;
+}
+
+.item .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question span {
+  height: 16px;
+  width: 16px;
+}
+
+.item .answer {
+  text-align: start;
+}

@@ -1,21 +1,19 @@
 .wrapper {
   width: 100%;
   height: 100%;
-  background-color: #faebd7;
-  padding: 4px;
+  margin: 8px 0;
 }
-.wrapper button{
+.wrapper button {
   padding: 10px 20px;
   cursor: pointer;
   outline: none;
-color: white;
-background-color: black;
-
+  color: white;
+  background-color: black;
 }
 .item {
   background-color: aquamarine;
   padding: 8px;
-  margin: 8px;
+  margin: 8px 0;
 }
 
 .item .question {

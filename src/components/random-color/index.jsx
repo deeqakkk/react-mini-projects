@@ -29,7 +29,7 @@ const Randomcolor = () => {
     const g = randomColorUtil(256);
     const b = randomColorUtil(256);
 
-    setBgColor(`rgb${r},${g},${b}`);
+    setBgColor(`rgb(${r},${g},${b})`);
   };
 
   useEffect(() => {

@@ -39,27 +39,37 @@ const LoadMore = () => {
   }
 
   const isDisabled = products.length === 100 ? true : false
+
   return (
     <>
       <div
         style={{
           display: 'flex',
           flexWrap: 'wrap',
+          justifyContent: 'center',
         }}
       >
         {products && products.length
           ? products.map((item) => (
-              <p
+              <div
                 style={{
                   border: '1px solid black',
                   margin: '10px',
                   padding: '10px',
                   width: '25%',
+                  textAlign: 'center',
                 }}
-                key={item.title}
               >
-                {item?.title}
-              </p>
+                <img
+                  src={item?.thumbnail}
+                  alt="dummy"
+                  height={100}
+                  width={100}
+                />
+                <p key={item.title}>
+                  {item.id}. {item?.title}
+                </p>
+              </div>
             ))
           : 'No data available'}
       </div>

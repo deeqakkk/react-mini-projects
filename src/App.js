@@ -1,10 +1,10 @@
 import "./App.css";
-import StarRating from "./components/star-rating";
+import ImageSlider from "./components/image-slider";
 
 function App() {
   return (
     <div className="App">
-      <StarRating />
+    <ImageSlider/>
     </div>
   );
 }

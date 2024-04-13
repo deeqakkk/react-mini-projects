@@ -1,9 +1,9 @@
-import DynamicMenu from "./components/dynamic-menu";
+import QrGenerator from "./components/qr-generator";
 
 function App() {
   return (
     <div className="App">
-    <DynamicMenu/>
+<QrGenerator/>
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import LoadMore from "./components/load-more";
+import DynamicMenu from "./components/dynamic-menu";
 
 function App() {
   return (
     <div className="App">
-    <LoadMore/>
+    <DynamicMenu/>
     </div>
   );
 }

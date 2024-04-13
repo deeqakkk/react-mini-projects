@@ -5,8 +5,7 @@
   --button-text: white;
 }
 
-[data-theme='dark']
-{
+[data-theme='dark']{
   --background: black;
   --text-primary: white;
   --button-bg: lightgrey;
@@ -24,4 +23,11 @@
 }
 .dark-light-mode p{
   color: var(--text-primary);
+}
+
+.dark-light-mode button{
+  background-color: var(--button-bg);
+  border:  1px solid var(--button-bg);
+  color: var(--button-text);
+  padding: 10px 20px;
 }

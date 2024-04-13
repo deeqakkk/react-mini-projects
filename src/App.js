@@ -1,11 +1,11 @@
-import QrGenerator from "./components/qr-generator";
+import DarkLightMode from './components/dark-light-mode'
 
 function App() {
   return (
     <div className="App">
-<QrGenerator/>
+      <DarkLightMode />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

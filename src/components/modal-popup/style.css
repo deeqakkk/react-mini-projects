@@ -1,0 +1,31 @@
+.modal-parent{
+  background-color: lightblue;
+  max-width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.modal-parent .modal-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+background-color: lightcoral;
+padding: 10px;
+
+}
+
+.modal-parent .modal-footer{
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.modal-parent .modal-header span{
+  cursor: pointer;
+  font-size: 20px;
+  font-style: bold;
+}
+.modal-parent .modal-body{
+  padding: 10px;
+}

@@ -30,4 +30,5 @@
   border:  1px solid var(--button-bg);
   color: var(--button-text);
   padding: 10px 20px;
+  border-radius: 8px;
 }

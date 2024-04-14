@@ -1,0 +1,17 @@
+.top-container .outer-bar{
+  height: 10px;
+  background-color: greenyellow;
+}
+
+.top-container .inner-bar{
+  height: 10px;
+  background-color: red;
+  transition: all 0.5s;
+}
+
+.top-container{
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: lightcoral;
+}

@@ -1,9 +1,9 @@
-import DarkLightMode from './components/dark-light-mode'
+import ScrollIndicator from './components/scroll-indicator'
 
 function App() {
   return (
     <div className="App">
-      <DarkLightMode />
+    <ScrollIndicator apiURL={'https://dummyjson.com/products?limit=100'}/>
     </div>
   )
 }

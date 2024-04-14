@@ -48,10 +48,20 @@ const SearchAutocomplete = () => {
           placeholder="Search..."
           onChange={(e) => setSearchText(e.target.value)}
         ></input>
+        
       </div>
       <div className="filtered-data">
         {filteredData && filteredData.length > 0
-          ? filteredData.map((user) => <p>{user}</p>)
+          ? filteredData.map((user) => (
+              <p
+                style={{
+                  cursor: 'pointer',
+                }}
+                onClick={() => setSearchText(user)}
+              >
+                {user}
+              </p>
+            ))
           : searchText.length > 1 && <p>No user found...</p>}
       </div>
     </div>

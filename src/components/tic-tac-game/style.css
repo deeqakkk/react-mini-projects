@@ -1,0 +1,18 @@
+.game-container {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.square {
+  border: 1px solid black;
+  border-style: inset;
+  float: left;
+  font-size: 40px;
+  height: 100px;
+  text-align: center;
+  width: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  cursor: pointer;
+}

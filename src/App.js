@@ -1,9 +1,9 @@
-import SearchAutocomplete from './components/search-autocomplete'
+import TicTacGame from './components/tic-tac-game'
 
 function App() {
   return (
     <div className="App">
-   <SearchAutocomplete/>
+      <TicTacGame />
     </div>
   )
 }

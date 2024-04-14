@@ -1,4 +1,4 @@
-const ModalBody = ({ childData, onClick }) => {
+const ModalBody = ({ childData }) => {
   return <>{childData}</>
 }
 export default ModalBody

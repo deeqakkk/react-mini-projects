@@ -1,31 +1,41 @@
-.modal-parent{
+.modal-parent {
   background-color: lightblue;
   max-width: 300px;
   margin: 10px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  animation : testAnimation 2s;
 }
-
-.modal-parent .modal-header{
+ @keyframes testAnimation {
+ from {
+  top: -200px;
+  opacity: 0;
+ }
+ to{
+  top: 0;
+  opacity: 1;
+ }
+  
+ }
+.modal-parent .modal-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-background-color: lightcoral;
-padding: 10px;
-
-}
-
-.modal-parent .modal-footer{
   background-color: lightcoral;
   padding: 10px;
 }
 
-.modal-parent .modal-header span{
+.modal-parent .modal-footer {
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+.modal-parent .modal-header span {
   cursor: pointer;
   font-size: 20px;
   font-style: bold;
 }
-.modal-parent .modal-body{
+.modal-parent .modal-body {
   padding: 10px;
 }

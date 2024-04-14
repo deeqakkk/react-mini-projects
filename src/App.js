@@ -1,9 +1,10 @@
-import ScrollIndicator from './components/scroll-indicator'
+import TabTest from "./components/custom-tabs/tabs-test"
 
 function App() {
   return (
     <div className="App">
-    <ScrollIndicator apiURL={'https://dummyjson.com/products?limit=100'}/>
+      {/* <ScrollIndicator apiURL={'https://dummyjson.com/products?limit=100'}/> */}
+     <TabTest/>
     </div>
   )
 }

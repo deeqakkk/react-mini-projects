@@ -1,9 +1,9 @@
-import GithubProfile from './components/github-profile'
+import SearchAutocomplete from './components/search-autocomplete'
 
 function App() {
   return (
     <div className="App">
-      <GithubProfile />
+   <SearchAutocomplete/>
     </div>
   )
 }

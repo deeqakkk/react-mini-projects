@@ -1,10 +1,9 @@
-import Modal from "./components/modal-popup/modal-parent"
+import GithubProfile from './components/github-profile'
 
 function App() {
   return (
     <div className="App">
-      {/* <ScrollIndicator apiURL={'https://dummyjson.com/products?limit=100'}/> */}
-    <Modal/>
+      <GithubProfile />
     </div>
   )
 }

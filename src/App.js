@@ -1,9 +1,8 @@
-import TestFun from './components/custom-hooks/test'
-
+import UseOutsideClick from './components/custom-hooks/test2'
 function App() {
   return (
     <div className="App">
-     <TestFun/>
+      <UseOutsideClick />
     </div>
   )
 }

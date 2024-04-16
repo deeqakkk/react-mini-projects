@@ -1,9 +1,9 @@
-import TicTacGame from './components/tic-tac-game'
+import TestFun from './components/custom-hooks/test'
 
 function App() {
   return (
     <div className="App">
-      <TicTacGame />
+     <TestFun/>
     </div>
   )
 }

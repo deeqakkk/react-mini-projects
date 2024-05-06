@@ -3,6 +3,7 @@ import TabsTest from './components/custom-tabs/tabs-test'
 import StarRating from './components/star-rating/index'
 import GithubProfile from './components/github-profile/index'
 import Pagination from "./components/pagination"
+import PasswordGenerator from "./components/password-generator"
 
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
             //   <hr></hr>
             //   <Link to='githubProfile'>Github Profile</Link>
             // </>
-            <Pagination/>
+            <PasswordGenerator/>
           } />
           <Route path="/starRating" element={<StarRating />} />
           <Route path="/githubProfile" element={<GithubProfile />} />

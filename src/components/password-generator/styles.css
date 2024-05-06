@@ -1,0 +1,59 @@
+.password-generator{
+  background-color:darkslategray;
+  padding: 24px;
+  margin: 24px;
+  max-width: 500px;
+}
+
+.password-generator .header{
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.password-generator button{
+  padding: 10px;
+  border-radius: 5px;
+  border:none;
+  color:white;
+  text-transform: uppercase;
+  background-color: cadetblue;
+  cursor: pointer;
+}
+
+.password-generator .charLength{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;padding-bottom: 24px;
+}
+.password-generator .charLength span{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+
+.password-generator .checkboxes{
+  display: grid;
+  grid-template-columns: auto auto;
+  font-size: 16px;
+  color:white;
+  font-weight: 700;
+  grid-gap: 10px;
+  padding-bottom: 24px;
+}
+
+.password-generator  .generateBtn{
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 15px;
+}
+
+.errorMsg {
+  color: red
+}

@@ -1,8 +1,8 @@
-import { Routes, Route, BrowserRouter, Link } from "react-router-dom"
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 import TabsTest from './components/custom-tabs/tabs-test'
 import StarRating from './components/star-rating/index'
 import GithubProfile from './components/github-profile/index'
-import FileExplorer from "./components/file-explorer"
+import Pagination from "./components/pagination"
 
 
 export default function App() {
@@ -19,7 +19,7 @@ export default function App() {
             //   <hr></hr>
             //   <Link to='githubProfile'>Github Profile</Link>
             // </>
-            <FileExplorer/>
+            <Pagination/>
           } />
           <Route path="/starRating" element={<StarRating />} />
           <Route path="/githubProfile" element={<GithubProfile />} />
